@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js"></script>
     <title>Etch a Sketch</title>
+    <script src="app.js"></script>
 </head>
 <body>
     <main>
@@ -13,12 +13,13 @@
         <div class="size">
             <button id="btn-size">Size</button>
             <p id="message"> </p>
+            <p id="draw"></p>
         </div>
         <div class="board"></div>
         <div class="container">
-            <button>Black</button>
-            <button>Random</button>
-            <button>Reset</button>
+            <button onclick="setColor('black')">Black</button>
+            <button onclick="setColor('random')">Random</button>
+            <button onclick="resetBoard()">Reset</button>
         </div>
     </main>
 </body>
