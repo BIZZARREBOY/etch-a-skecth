@@ -8,6 +8,19 @@
     font-weight: 700;
 }
 
+p {
+    font-size: 15px;
+}
+
+.size {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
 .board {
     height: 500px;
     width: 500px;
@@ -35,6 +48,7 @@ h1 {
 
 button {
     padding: 5px 30px;
+    margin: 20px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -42,3 +56,4 @@ button {
 button:hover {
     background-color: rgb(185, 185, 185);
 }
+
